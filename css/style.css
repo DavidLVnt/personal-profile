@@ -1,0 +1,139 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.container {
+    max-width: 960px;
+    min-width: 500px;
+    margin: 5px auto;
+}
+
+header {
+    background-color: rgb(96, 158, 228);
+    text-align: center;
+}
+header>p {
+    display:inline;
+    vertical-align: top;
+    font-size: 500%;
+    
+}
+header>img {
+    width: 9.5%;
+    float: left;
+}
+
+ol {
+    text-align: center;
+}
+
+nav {
+    display: block;
+
+}
+
+
+nav>ol>li {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+#main {
+    overflow: auto;
+    background-color: rgb(182, 224, 250);
+}
+
+#contactinfor{
+    margin-top: 15px;
+    width: 30%;
+    float: left;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+#skills {
+    width: 70%;
+   display: inline;
+    list-style-type: none;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(96, 158, 228);
+}
+
+/* hobbies */
+#hobbies>ul>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#hobbies>ul {
+    width: 75%;
+    list-style-type: none;  
+    display: inline-block; 
+}
+h1 {
+    width: 20%;
+    float: left;
+    display: block;
+}
+
+#sizepic2 {
+    width: 91%;
+}
+#sizepic1 {
+    width: 94%;
+}
+.gardenpic {
+    float: left;
+    width: 50%;    
+}
+#hobbies{
+    background-color: rgb(199, 213, 240);
+}
+/*resume*/
+ul {
+    margin-left: 5%;
+}
+
+
+h4{
+    color: rgb(53, 103, 196);
+}
+table {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+th {
+    text-align: left;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #container {
+        width: 100%;        
+    }
+}
+
+@media only screen and (max-width:800px) {
+      /* For tablets: */
+    #container {
+        width: 80%;        
+    }
+    ul {
+        width: 100%;
+    }
+    img {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:780px) {
+    /*For desktops: */
+    #container {
+    width: 100%;
+    }
+}
+
+
